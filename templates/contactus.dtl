@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Radar Vector</title>
+    <meta name="description" content=""/>
+    <meta name="keywords" content="radar vector, radar, vector, public, video clips, post, videoblog, community site, videos, clips, online news, america news, news america"/>
+    <link rel="shortcut icon" href="/images/favicon.ico"/>
+    <link href="/css/style.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="http://vjs.zencdn.net/4.1/video-js.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <!--<script src="/js/angular.min.js"></script>
+    <script src="/js/controllers.js"></script>
+    <script src="/js/flowplayer-3.2.13.min.js"></script> 
+    <script type='text/javascript' src="http://vjs.zencdn.net/4.1/video.js"></script>
+    <script src="/js/ui-bootstrap-tpls-0.6.0.js"></script>
+    <script src="/players/flowplayer/flowplayer-3.2.12.min.js"></script> -->
+  </head>
+  <body>
+  <!-- index.html --> 
+    <header>
+      <div class="container">
+        <span class="logo"><a href="/" title="Radarvector"><img src="/images/logo.png"/></a></span>
+        <div class="right">
+           <!--/* Switch v3.8.5 - Radarvector.com - Radarvector.com - 728x90 - 728x90 */-->
+          <script src="http://tag.contextweb.com/TagPublish/getjs.aspx?action=VIEWAD&cwrun=200&cwadformat=728X90&cwpid=557677&cwwidth=728&cwheight=90&cwpnet=1&cwtagid=197704"></script>
+        </div>
+      </div>
+      <!-- container end -->
+    </header>
+    <!--Header End-->
+
+    <div class="navgation">
+      <div class="container2">
+        <nav>
+          <a href="/"><span>Now!</span></a>
+          <a href="/p/World?page=1"><span>World News</span></a>
+          <a href="/p/US?page=1"><span>US</span></a>
+          <a href="/p/Politics?page=1"><span>Politics</span></a>
+          <a href="/p/Entertainment?page=1"><span>Entertainment</span></a>
+          <a href="/p/Markets?page=1"><span>Markets</span></a>
+          <a href="/contactus" class="active"><span>Contact Us</span></a>
+          <a href="/p/Money?page=1"><span>Money</span></a>
+          <a href="/videos?p=1"><span>World Videos</span></a>
+        </nav>
+        <!-- <div class="navright welcometxt">Welcome Guest</div> -->
+        <div class="navright">
+          <a href="/" class="home">Home</a>
+          <a href="mailto:admin@radorvector.net" class="contact">Contact</a>
+        </div>
+      </div>
+      <!-- container2 end -->
+    </div>
+    <!--Navgation End-->
+
+  
+        <article>
+      <div class="container">
+        <div class="banner"><script src="http://tag.contextweb.com/TagPublish/getjs.aspx?action=VIEWAD&cwrun=200&cwadformat=728X90&cwpid=557677&cwwidth=728&cwheight=90&cwpnet=1&cwtagid=197704"></script></div>
+
+        <div class="contentarea" >
+          <aside class="width65" style="padding:20px; border:1px solid black; margin-left: 20px; margin-bottom:20px;">
+            <h1> Contact Us </h1>
+            <p>Please feel free to call or email us by using one of the following ways to reach us: </p><br />
+            <div style="line-height:20px">
+              <span class="width20"><b>Phone number:</b></span>   <span class="width65">(657) 232-4726</span>
+              <span class="width20"><b>Email: </b></span>          <span class="width65">george@radarvector.com </span>
+              <span class="width20"><b>Twitter:</b></span><span class="width65"> radarvector</span>
+              <span class="width20"><b>Facebook:</b></span><span class="width65"> radarvector</span>
+              <span class="width20"><b>google+: </b></span> <span class="width65"> radarvector</span>
+            </div>
+
+          </aside>
+
+          <aside class="width32 margin20_L">
+
+
+          </aside>
+        </div>
+
+      </div>
+    </article>
+      <!--Article End-->
+
+      <div class="banner">
+          <!--/* Switch v3.8.5 - Radarvector.com - Radarvector.com - 728x90 - 728x90 */-->
+          <script src="http://tag.contextweb.com/TagPublish/getjs.aspx?action=VIEWAD&cwrun=200&cwadformat=728X90&cwpid=557677&cwwidth=728&cwheight=90&cwpnet=1&cwtagid=197704"></script>
+        </div>
+  
+
+    
+    <footer>
+      <div class="container">
+        <summary>
+          <span class="left">
+            Copyright &copy;  {% now "Y" %}  RadarVector. All Rights Reserved | <a href=/termsandconditions>Terms & Conditions</a>
+          </span>
+          <span class="right">
+            <span class="left margin5">Follow Us on:</span>
+            <a href="https://twitter.com/radarvector1"><img src="/images/twitter.png"/></a>
+            <a href="https://www.facebook.com/radarvector58"><img src="/images/facebook.png"/></a>
+            <!-- <a href="#"><img src="/images/google.png"/></a>
+            <a href="#"><img src="/images/linkdedin.png"/></a> -->
+          </span>
+        </summary>
+      </div>
+    </footer>
+    <!--Footer End-->
+   
+  </body>
+</html>

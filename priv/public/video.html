@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="radarvectorApp">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Radar Vector</title>
+    <meta name="description" content=""/>
+    <meta name="keywords" content="radar vector, radar, vector, public, video clips, post, videoblog, community site, videos, clips, online news, america news, news america"/>
+    <link rel="shortcut icon" href="/images/favicon.ico"/>
+    <link href="/css/style.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="http://vjs.zencdn.net/4.1/video-js.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="/js/angular.min.js"></script>
+    <script src="/js/controllers.js"></script>
+    
+    <script src="/js/ui-bootstrap-tpls-0.6.0.js"></script>
+  </head>
+  <body ng-controller="RadarvectorHome" ng-cloak>
+  <!-- video.html priv/public/video.html -->
+    <video-js></video-js>
+    <!-- <video-js videosrc="http://video.contentapi.ws/2013-09-16T102653Z_1_LOVE98F0T0SO7_RTRMADV_STREAM-700-16X9-MP4_RUSSIA-SUBMARINE-FIRE-ROUGH-CUT-O.MP4"></video-js>
+     --><span style="color: #FFF;">{{ latestVideo.value.title }}</span><br />
+    <span style="color: #FFF;">{{ latestVideo.value.description }}</span>
+    <script type='text/javascript' src="http://vjs.zencdn.net/4.1/video.js"></script>
+  </body>
+</html>

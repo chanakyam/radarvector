@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Radar Vector</title>
+
+    <meta name="description" content=""/>
+    <meta name="keywords" content="radar vector, radar, vector, public, video clips, post, videoblog, community site, videos, clips, online news, america news, news america"/>
+    <link rel="shortcut icon" href="/images/favicon.ico"/>
+    <link href="/css/style.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="http://vjs.zencdn.net/4.1/video-js.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <!--<script src="/js/angular.min.js"></script>
+    <script src="/js/controllers.js"></script>
+    <script src="/js/flowplayer-3.2.13.min.js"></script> 
+    <script type='text/javascript' src="http://vjs.zencdn.net/4.1/video.js"></script>
+    <script src="/js/ui-bootstrap-tpls-0.6.0.js"></script>-->
+    
+    <script src="/js/play_video.js"></script>
+    <script type="text/javascript" src="http://jwpsrv.com/library/5V3tOP97EeK2SxIxOUCPzg.js"></script>
+<script type="text/javascript">jwplayer.key="L0SAYMTJJs/IIkeci5tG4vgIMGHAc6YFBtmJaA==";</script></script>
+  </head>
+  <body>
+     <!-- news_page.dtl  -->
+    <header>
+      <div class="container">
+        <span class="logo"><a href="/" title="Radarvector"><img src="/images/logo.png"/></a></span>
+        <div class="right">
+           <!--/* Switch v3.8.5 - Radarvector.com - Radarvector.com - 728x90 - 728x90 */-->
+          <script src="http://tag.contextweb.com/TagPublish/getjs.aspx?action=VIEWAD&cwrun=200&cwadformat=728X90&cwpid=557677&cwwidth=728&cwheight=90&cwpnet=1&cwtagid=197704"></script>
+        </div>
+      <!-- container end -->
+    </header>
+    <!--Header End-->
+
+    <div class="navgation">
+      <div class="container2">
+        <nav>
+          <a href="/"><span>Now!</span></a>
+          <a href="/p/World?page=1" ><span>World News</span></a>
+          <a href="/p/US?page=1"><span>US</span></a>
+          <a href="/p/Politics?page=1"><span>Politics</span></a>
+          <a href="/p/Entertainment?page=1"><span>Entertainment</span></a>
+          <a href="/p/Markets?page=1"><span>Markets</span></a>
+          <a href="/contactus"><span>Contact Us</span></a>
+          <a href="/p/Money?page=1"><span>Money</span></a>
+          <a href="/videos?p=1"><span>More Videos</span></a>
+        </nav>
+        <div class="navright">
+          <a href="/" class="home">Home</a>
+          <a href="mailto:admin@radorvector.net" class="contact">Contact</a>
+        </div>
+      </div>
+      <!-- container2 end -->
+    </div>
+    <!--Navgation End-->
+
+    <div class="bannerArea">
+      <div class="container2">
+        <div class="banner">
+          
+        </div>
+        <!--banner End-->
+        <aside class="width67">
+          <div class="slideshow">
+            <!-- <div class="width60"> -->
+              <div class="video">
+              <input type="hidden" name="video_val" id="video_val" value="{{videoParam.video}}">
+              <div id="myElement">Loading the player...</div>
+            <div class="slideshow-content ">
+              <p><b>{{videoParam.description}}</b></p>
+            </div>
+          </div>
+          <!--Slideshow VIDEOS End-->
+          <div class="clear"></div>
+        </aside>
+        <aside class="width30 margin20_L">
+          <div class="rt-tpadd">
+            <!--/* Switch v3.8.5 - Radarvector.com - Radarvector.com - 300x250 - 300x250 */-->
+            <script src="http://tag.contextweb.com/TagPublish/getjs.aspx?action=VIEWAD&cwrun=200&cwadformat=300X250&cwpid=557677&cwwidth=300&cwheight=250&cwpnet=1&cwtagid=197703"></script>
+          </div>
+        </aside>
+      </div>
+      <!-- container2 end -->
+    </div>
+    <!-- bannerArea end -->
+
+    <div class="container2">
+      <article>
+        <aside class="width67 margin15_T">
+          <div class="clear"></div>
+          
+            <div class="module-inner newsbody">
+              <div class="floatright">
+                <!--/* Switch v3.8.5 - Radarvector.com - Radarvector.com - 160x600 - 160x600 */-->
+                <script src="http://tag.contextweb.com/TagPublish/getjs.aspx?action=VIEWAD&cwrun=200&cwadformat=160X600&cwpid=557677&cwwidth=160&cwheight=600&cwpnet=1&cwtagid=197702"></script>
+              </div>
+              <div class="module-title">{{ titles.title }}</div>
+              {{ titles.news_body }}
+            </div>
+            
+        </aside>
+
+        <aside class="width30 margin20_L">
+          <div class="module margin10_T RgtTopNews">
+            <div class="module popular">
+            <div class="module-title">Popular Videos</div>
+            <div class="module-inner">
+              {% for lvid in popularvideos %}
+                <div class="row videorow">
+                  <span class="width40">
+                    <a href="/v/{{lvid.id}}">
+                      <img src="http://img1.contentapi.ws/{{lvid.thumb_image}}" width="97" height="75"/>
+                      <img class="smallplay" src="/images/play-icon.png">
+                    </a>
+                  </span>
+                  <span class="width60">
+                    <p><a href="/v/{{lvid.id}}">{{lvid.title}}</a></p>
+                    <span class="uploaded-date">{{lvid.upload_date}}</span>
+                  </span>
+                </div>
+              {% endfor %}
+              <a href="/videos?p=1" class="more">More Videos</a>
+            </div>
+          </div>
+            <!--Popular Stories End-->
+            <div class="clear"></div>
+
+            <div class="module-title">Top Stories</div>
+            <div class="module-inner">
+              {% for n in politicsnews %}
+                <div class="videorow">
+                  <div class="news-item">
+                    <img class="news-graphic" src="http://img1.contentapi.ws/{{n.thumb_image}}"/>
+                    <p>{{n.title}}</p><span class="uploaded-date">{{n.upload_date}}</span>
+                  </div>
+                </div>
+              {% endfor %}
+              <div class="videorow">
+              </div>
+
+            </div>
+          </div>
+          <!--Top News End-->
+          <span class="clearboth"></span>
+
+          <div class="rt-btadd margin15_T">
+            <!--/* Switch v3.8.5 - Radarvector.com - Radarvector.com - 300x250 - 300x250 */-->
+            <script src="http://tag.contextweb.com/TagPublish/getjs.aspx?action=VIEWAD&cwrun=200&cwadformat=300X250&cwpid=557677&cwwidth=300&cwheight=250&cwpnet=1&cwtagid=197703"></script>
+          </div>
+          </aside>
+        </article>
+        <!--Article End-->
+
+        <div class="banner">
+          <!--/* Switch v3.8.5 - Radarvector.com - Radarvector.com - 728x90 - 728x90 */-->
+          <script src="http://tag.contextweb.com/TagPublish/getjs.aspx?action=VIEWAD&cwrun=200&cwadformat=728X90&cwpid=557677&cwwidth=728&cwheight=90&cwpnet=1&cwtagid=197704"></script>
+        </div>
+        </div>
+        <!--Bottom-add End-->
+
+      </div>
+    <footer>
+      <div class="container">
+        <summary>
+          <span class="left">
+            Copyright &copy;  {% now "Y" %}  RadarVector. All Rights Reserved | <a href=/termsandconditions>Terms & Conditions</a>
+          </span>
+          <span class="right">
+            <span class="left margin5">Follow Us on:</span>
+            <a href="https://twitter.com/radarvector1"><img src="/images/twitter.png"/></a>
+            <a href="https://www.facebook.com/radarvector58"><img src="/images/facebook.png"/></a>
+          </span>
+        </summary>
+      </div>
+    </footer>
+    <!--Footer End-->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-43119651-5', 'radarvector.com');
+      ga('send', 'pageview');
+
+    </script>
+   
+  </body>
+</html>
