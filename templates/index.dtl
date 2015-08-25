@@ -120,7 +120,7 @@
                   <div class="width50">
                     <span class="gallerythumb">
                       <a href="/v/{{lvid.id}}">
-                        <img src="http://img1.contentapi.ws/{{lvid.thumb_image}}"/>
+                        <img src="http://newscdn.lycos.com/world_news/{{lvid.thumb_image}}"/>
                         <img class="play" src="/images/play-icon.png">
                         <p class="duration small ng-binding">{{lvid.duration}} s</p>
                       </a>
@@ -173,7 +173,7 @@
                 <div class="row videorow">
                   <span class="width40">
                     <a href="/v/{{lvid.id}}">
-                      <img src="http://img1.contentapi.ws/{{lvid.thumb_image}}" width="97" height="75"/>
+                      <img src="http://newscdn.lycos.com/world_news/{{lvid.thumb_image}}" width="97" height="75"/>
                       <img class="smallplay" src="/images/play-icon.png">
                     </a>
                   </span>
@@ -196,7 +196,7 @@
               {% for n in politicsnews1 %}
                 <div class="videorow">
                   <div class="news-item">
-                    <img class="news-graphic" src="http://img1.contentapi.ws/{{n.thumb_image}}"/>
+                    <img class="news-graphic" src="http://newscdn.lycos.com/{{n.thumb_image}}"/>
                     <p>{{n.title}}<br /><span class="uploaded-date">{{n.upload_date}}</span></p>
                   </div>
                 </div>
